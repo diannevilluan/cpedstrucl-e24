@@ -49,16 +49,16 @@ void menu(){
 	int choice,numberPush;
 	while(choice!=4){
 	cout<<"What would you like to do?:\n";
-	cout<<"1: Push:\n";
-	cout<<"2: Pop:\n";
-	cout<<"3: Display:\n";
-	cout<<"4: Exit:\n";
-	cout<<"Enter choice:";
+	cout<<"1: Push <3:\n";
+	cout<<"2: Pop <3:\n";
+	cout<<"3: Display <3:\n";
+	cout<<"4: Exit <3:\n";
+	cout<<"Enter your choice:";
 	cin>>choice;
 	switch (choice)
 {
 	case 1: 
-	cout<<"Input a number to push: ";
+	cout<<"Input a number to Push: ";
 	cin>>numberPush;
 	s->push(numberPush);
 	break;
